@@ -9,18 +9,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #302e2b;
 }
 
 .board {
-    width: calc(64px * 8);
-    height: calc(64px * 8);
+    width: calc(150px * 8);
+    height: calc(150px * 8);
     display: flex;
     flex-wrap: wrap;
+    border-radius: 4px;
+    border: 3px solid #262522;
 }
 
 .cell {
-    width: 64px;
-    height: 64px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
