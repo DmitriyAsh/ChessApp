@@ -42,3 +42,20 @@
 .white {
     background-color: #eeeed5;
 }
+
+.selected {
+    background-color: #bbcb2b;
+}
+
+.available {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    background-color: #262522;
+    opacity: 0.2;
+}
+
+.target {
+    outline-offset: -10px;
+    outline: 10px solid rgba(0, 0, 0, 0.2);
+}
