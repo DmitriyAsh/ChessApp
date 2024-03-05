@@ -26,4 +26,12 @@ export class Cell {
 		this.available = false;
 		this.id = Math.random();
 	}
+
+	moveFigure(targer: Cell) {
+		if (this.figure && this.figure.canMove(targer)) {
+			this.figure.moveFigure(targer);
+			targer.figure = this.figure;
+			this.figure = null;
+		}
+	}
 }
